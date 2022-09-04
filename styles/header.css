@@ -1,0 +1,136 @@
+.header {
+  height: 55px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  z-index: 100;
+
+}
+
+.left-sec {
+  display: flex;
+  align-items: center;
+  margin-left: -5px;
+  
+}
+
+.middle-sec {
+  flex: 1;
+  margin-left: 75px;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  height: 27px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: dimgrey;
+  border-radius: 2px;
+  width: 0;
+}
+
+.search-bar::placeholder {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+ 
+}
+.search-button {
+  height: 31px;
+  width: 60px;
+  background-color: white;
+  border-width:  1px;
+  border-style: solid;
+  border-color: dimgrey;
+  margin-left: -2px;
+  margin-right: 10px;
+}
+
+.voice-search-button {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  
+}
+
+.right-sec {
+  width: 180px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.harmburger-menu {
+  height: 35px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.youtube-logo {
+  height: 24px;
+  
+}
+
+.vsi {
+  height: 17px;
+  margin-top: 4px;
+}
+
+.si {
+  height: 20px;
+  margin-top: 4px;
+}
+
+.ad-vid {
+  height: 20px
+}
+
+.aps-icon {
+  height: 16px;
+}
+
+.notif-bell {
+  height: 23px;
+  margin-top: 5px;
+}
+
+.notification {
+  position: relative;
+}
+
+.notifs-count {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  background-color: red;
+  color: white;
+  font-size: 8px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 10px;
+}
+
+.current-user-pic {
+  height: 36px;
+  border-radius: 18px;
+}

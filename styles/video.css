@@ -1,0 +1,70 @@
+
+.thumbnail {
+    width: 100%;
+}
+
+
+.y-author {
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 5px;
+    margin-left: -5px;
+}
+
+.y-title {
+    font-size: 12px;
+    margin-bottom: 12px;
+    margin-left: -5px;
+    font-weight: 700px;
+    line-height: 16px;
+    
+}
+
+.y-data {
+    font-size: 10px;
+    color: gray;
+    margin-left: -5px;
+}
+
+.thumb-roll {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.channel-propic {
+    width: 36px;
+    border-radius: 100%;
+}
+
+.channel-pic {
+   display: inline-block;
+   width: 50px;
+   vertical-align: top;
+}
+
+.title {
+    display: inline-block;
+    width: 200px;
+}
+.video-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 17px;
+     row-gap: 45px;
+}
+.video-time {
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  font-weight: 500px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+
